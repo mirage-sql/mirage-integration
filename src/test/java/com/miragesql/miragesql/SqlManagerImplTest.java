@@ -159,7 +159,7 @@ public class SqlManagerImplTest extends AbstractDatabaseTest {
 
 		MirageTestContext.verifySqlNumber(1);
 		ExecutedSQLInfo info = MirageTestContext.getExecutedSQLInfo(0);
-		assertEquals("SELECT COUNT(*) FROM (select --+ first_rows(1)\r\nBOOK_ID, BOOK_NAME from BOOK)",
+		assertEquals("SELECT COUNT(*) FROM (select --+ first_rows(1)\nBOOK_ID, BOOK_NAME from BOOK)",
 				info.getSql());
 	}
 

@@ -24,7 +24,7 @@ repositories {
 
 
 dependencies {
-    compile 'com.miragesql:miragesql:2.0.0'
+    compile 'com.miragesql:miragesql:2.1.0-SNAPSHOT'
     compile 'com.miragesql:miragesql-test:2.1.0-SNAPSHOT'
 
     compile 'org.slf4j:slf4j-api:1.7.25'
